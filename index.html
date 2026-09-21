@@ -88,7 +88,7 @@
 <button class="music" id="musicBtn" aria-label="Play music">♫</button>
 <audio id="bgMusic" loop>
   <!-- Put your music file in assets/music.mp3 -->
-  <source src="assets/music.mp3" type="audio/mpeg">
+  <source src="music.mp3" type="audio/mpeg">
 </audio>
 
 <header class="hero">
@@ -115,7 +115,7 @@
   <section>
     <div class="photo-wrap">
       <!-- Replace assets/liza.jpg with Liza's photo -->
-      <img class="photo" src="assets/liza.jpg" alt="Liza">
+      <img class="photo" src="liza.JPG" alt="Liza">
       <div class="photo-note">Replace <b>assets/liza.jpg</b> with Liza's photo.</div>
     </div>
   </section>
@@ -138,12 +138,12 @@
       <h2 class="center">The Celebration</h2>
       <div class="details">
         <div class="detail"><strong>DATE</strong><span>Friday, 2 October 2026</span></div>
-        <div class="detail"><strong>VENUE</strong><span>Livehouse Bali</span></div>
-        <div class="detail"><strong>DRESS CODE</strong><span>Come dressed for a special night ✨</span></div>
-        <div class="detail"><strong>LOCATION</strong><span>Livehouse Bali</span></div>
+        <div class="detail"><strong>VENUE</strong><span>HWLivehouse Bali</span></div>
+        <div class="detail"><strong>DRESS CODE</strong><span>Black ✨</span></div>
+        <div class="detail"><strong>LOCATION</strong><span>HWLivehouse Bali</span></div>
       </div>
       <div class="center" style="margin-top:22px">
-        <a class="btn" href="https://www.google.com/maps/search/?api=1&query=Livehouse+Bali" target="_blank">📍 Open Location</a>
+        <a class="btn" href="https://www.google.com/maps/search/?api=1&query=HW Livehouse+Bali" target="_blank">📍 Open Location</a>
       </div>
     </div>
   </section>
@@ -177,7 +177,7 @@
 
 <footer>
   With love, Liza ♡<br>
-  02 October 2026 · Livehouse Bali
+  02 October 2026 · HW Livehouse Bali
 </footer>
 
 <script>
@@ -186,7 +186,7 @@
   // Use international format without +, spaces or dashes.
   // Example Indonesia: 6281234567890
   // ============================
-  const RSVP_WHATSAPP = "6281234567890";
+  const RSVP_WHATSAPP = "6287724875477";
 
   // Countdown: 2 October 2026, 19:00 Bali time (WITA).
   const eventDate = new Date("2026-10-02T19:00:00+08:00").getTime();
@@ -236,7 +236,7 @@
       `I would like to RSVP for your 21st Birthday.%0A` +
       `Name: ${encodeURIComponent(name)}%0A` +
       `Attendance: ${encodeURIComponent(attendance)}%0A%0A` +
-      `See you on 2 October 2026 at Livehouse Bali! 🎉`;
+      `See you on 2 October 2026 at HW Livehouse Bali! 🎉`;
 
     window.open(`https://wa.me/${RSVP_WHATSAPP}?text=${message}`, "_blank");
   }
@@ -255,7 +255,7 @@
       `Hi ${name}! 💕%0A%0A` +
       `You are invited to Liza's 21st Birthday! 🎂✨%0A%0A` +
       `${url.toString()}%0A%0A` +
-      `See you on 2 October 2026 at Livehouse Bali!`;
+      `See you on 2 October 2026 at HW Livehouse Bali!`;
 
     const box = document.getElementById("shareResult");
     box.style.display = "block";
